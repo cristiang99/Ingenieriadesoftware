@@ -72,7 +72,7 @@ class Clientes_model extends CI_Model
         $query2 = $this->db->where('Rut', $rut);
         $query2 = $this->db->update('pedidos', $data2);
     }
-
+//hola estoy provando github
 }
  
 /*fin del archivo comentarios model*/
